@@ -6,14 +6,9 @@ public class EvenorOdd {
         int number = sc.nextInt();
         int rem=number%2;
         switch(rem){
-            case 0:
-            System.out.println("Even");
-            break;
-            case 1:
-            System.out.println("Odd");
-            break;
-            default:
-            System.out.println("Error");
+            case 0 -> System.out.println("Even");
+            case 1 -> System.out.println("Odd");
+            default -> System.out.println("Error");
         }
     }
 }
